@@ -1,0 +1,97 @@
+/* vim:fenc=utf-8
+*/
+@charset "utf-8";
+body {
+    font-size: 14px;
+    font-family:"Arial","Microsoft Yahei","Helvetica Regular",serif,Fixedsys !important;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+    padding:10px 10px;
+}
+@font-face {
+    font-family: "Helvetica Regular";
+    src: url(/common/font/helvetica-regular.ttf);
+    font-style: normal
+}
+
+
+td {
+    font-size: 12px;
+}
+table.wb {
+    border-collapse: collapse;
+    padding:10px 10px;
+}
+table.wb td {
+    font-size: 12px;
+    padding:5px;
+    border:1px outset rgb(131,131,131);
+}
+table.wb thead td {
+    color: #5f5f5f;
+    background-color: #e0e0e0;
+}
+td.vname {
+    color: #5f5f5f;
+    background-color: #e0e0e0;
+}
+
+td.ths
+{
+    background-color: #cccccc;
+    font-size:13px;
+    font-weight:bold;
+    color:#000000;
+}
+
+.button_small 
+{
+    width: 80px;
+}
+
+.button_middle
+{
+    width: 120px;
+}
+
+.button_large
+{
+    width: 160px;
+}
+
+.buttonX,.submitX {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .3rem .3rem;
+    border-radius: .25rem;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.buttonX_over {
+    margin: 2px;
+    FONT-SIZE: 12px;
+    COLOR: #ffffff;
+	height:22px;
+	*padding-top:3px;
+	padding-bottom:3px; 
+    TEXT-ALIGN: center;
+    border: 1px solid #90B1DF;
+    background-color: #A3C0E8;
+}
+hr {
+    border:none;
+    border-top:1px solid #5380a1;
+    height:0;
+}
+
