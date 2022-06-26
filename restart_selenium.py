@@ -7,7 +7,7 @@ from config import username, password
 warnings.filterwarnings('ignore')
 
 def main():
-    driver = webdriver.PhantomJS()
+    driver = webdriver.PhantomJS(executable_path="/usr/local/share/phantomjs-c2.1.1/bin/phantomjs")
 
     try:
         driver.get('http://192.168.1.254/')
